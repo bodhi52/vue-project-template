@@ -1,3 +1,19 @@
+# project for bodhi
+创建vue project的模板。使用官方的webpack模板，去掉了去google api上下载chrome seliumn 
+使用的时候要安装vue-cli
+
+``` bash
+$ npm install -g vue-cli
+$ vue init bodhi52/vue-project-template my-project
+$ cd my-project
+$ npm install
+$ npm run dev
+```
+
+
+下面是原 vue 的 webpack 的说明。
+
+
 # vue-webpack-boilerplate
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
